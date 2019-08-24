@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_marginStart="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <RelativeLayout android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+    <TextView android:layout_width="wrap_content"
+              android:text="Select Month"
+              android:textStyle="bold"
+              android:textColor="#181717"
+
+              android:layout_height="wrap_content"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/imv_close"
+                   android:layout_marginEnd="20dp"
+                   android:src="@drawable/ic_close_black"
+
+                   android:layout_alignParentEnd="true"
+
+        />
+    </RelativeLayout>
+
+
+    <RadioGroup android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:id="@+id/radio_group"
+                android:layout_height="wrap_content">
+    <RadioButton android:layout_width="wrap_content"
+              android:text="January"
+                 android:padding="10dp"
+                 android:id="@+id/jan"
+              android:layout_height="wrap_content"/>
+
+    <RadioButton android:layout_width="wrap_content"
+              android:text="February"
+                 android:id="@+id/feb"
+                 android:padding="10dp"
+              android:layout_marginTop="5dp"
+              android:layout_height="wrap_content"/>
+
+    <RadioButton android:layout_width="wrap_content"
+              android:text="March"
+                 android:id="@+id/march"
+              android:layout_marginTop="5dp"
+                 android:padding="10dp"
+              android:layout_height="wrap_content"/>
+
+    <RadioButton android:layout_width="wrap_content"
+              android:text="April"
+                 android:id="@+id/apr"
+                 android:padding="10dp"
+              android:layout_marginTop="5dp"
+              android:layout_height="wrap_content"/>
+
+
+    <RadioButton android:layout_width="wrap_content"
+              android:text="May"
+              android:layout_marginTop="5dp"
+                 android:id="@+id/may"
+                 android:padding="10dp"
+              android:layout_height="wrap_content"/>
+
+
+    <RadioButton android:layout_width="wrap_content"
+              android:text="June"
+                 android:padding="10dp"
+                 android:id="@+id/june"
+              android:layout_marginTop="5dp"
+              android:layout_height="wrap_content"/>
+
+    <RadioButton android:layout_width="wrap_content"
+              android:text="July"
+                 android:padding="10dp"
+                 android:id="@+id/jul"
+              android:layout_marginTop="5dp"
+              android:layout_height="wrap_content"/>
+
+    <RadioButton android:layout_width="wrap_content"
+              android:text="August"
+                 android:id="@+id/aug"
+                 android:padding="10dp"
+              android:layout_marginTop="5dp"
+              android:layout_height="wrap_content"/>
+
+    <RadioButton android:layout_width="wrap_content"
+              android:text="September"
+                 android:id="@+id/sep"
+                 android:padding="10dp"
+              android:layout_marginTop="5dp"
+              android:layout_height="wrap_content"/>
+
+    <RadioButton android:layout_width="wrap_content"
+              android:text="October"
+                 android:id="@+id/oct"
+                 android:padding="10dp"
+              android:layout_marginTop="5dp"
+              android:layout_height="wrap_content"/>
+
+    <RadioButton android:layout_width="wrap_content"
+              android:text="November"
+                 android:id="@+id/nov"
+
+                 android:padding="10dp"
+              android:layout_marginTop="5dp"
+              android:layout_height="wrap_content"/>
+
+    <RadioButton android:layout_width="wrap_content"
+              android:text="December"
+                 android:id="@+id/dec"
+                 android:padding="10dp"
+              android:layout_marginTop="5dp"
+              android:layout_height="wrap_content"/>
+
+    </RadioGroup>
+
+</LinearLayout>
